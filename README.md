@@ -29,12 +29,12 @@ A curated list of awesome 3D object and scene generation papers.
 
 ## 3D Object
 
-|                    Preview                     | Title                                                        | Year | Publication |                            Links                             |
-| :--------------------------------------------: | :----------------------------------------------------------- | ---- | :---------: | :----------------------------------------------------------: |
-| <img src="../Preview/deepsdf.png" width="300"> | [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation](https://arxiv.org/abs/1901.05103) | 2019 |    CVPR     | [![GitHub](https://img.shields.io/github/stars/merrell42/model-synthesis)](https://github.com/merrell42/model-synthesis) |
-| <img src="../Preview/setvae.png" width="300">  | ARMesh: Autoregressive Mesh Generation via Next-Level-of-Detail Prediction | 2021 |    CVPR     |                                                              |
-|                                                |                                                              |      |             |                                                              |
-|                                                |                                                              |      |             |                                                              |
-|                                                |                                                              |      |             |                                                              |
-|                                                |                                                              |      |             |                                                              |
-|                                                |                                                              |      |             |                                                              |
+|                   Preview                   | Title                                                        | Year | Publication |                            Links                             |
+| :-----------------------------------------: | :----------------------------------------------------------- | ---- | :---------: | :----------------------------------------------------------: |
+| <img src="Preview/deepsdf.png" width="300"> | [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation](https://arxiv.org/abs/1901.05103) | 2019 |    CVPR     | [![GitHub](https://img.shields.io/github/stars/merrell42/model-synthesis)](https://github.com/merrell42/model-synthesis) |
+| <img src="Preview/setvae.png" width="300">  | ARMesh: Autoregressive Mesh Generation via Next-Level-of-Detail Prediction | 2021 |    CVPR     |                                                              |
+|                                             |                                                              |      |             |                                                              |
+|                                             |                                                              |      |             |                                                              |
+|                                             |                                                              |      |             |                                                              |
+|                                             |                                                              |      |             |                                                              |
+|                                             |                                                              |      |             |                                                              |
