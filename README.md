@@ -5,9 +5,9 @@
 
 > 🏆 **A Curated List of 3D Object and Scene Generation Papers**
 >
-> 📅 **Scope**: This repository primarily collects high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
+> 📅 **Scope**: This repository primarily collects over 200 high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
 >
-> 📝 **Notation**: The term "Pub." in the fourth column is an abbreviation for "Publication," denoting the specific venue (conference or journal) where the paper was published.
+> 📝 **Notation**: The "Year" column records the date of the first arXiv preprint version. Papers within each category are sorted chronologically by this date (precise to the day). The "Pub." column stands for "Publication," denoting the specific conference or journal where the work was published.
 >
 > 🔄 **Maintenance**: This repository is actively maintained. If you identify any errors or omissions during your review, please feel free to submit an Issue for correction.
 >
@@ -24,9 +24,29 @@
 > }
 > ```
 
+# Table of Contents
+
+- [3D Object Generation Methods](#3d-object-generation-methods) 
+  - [Geometry](#geometry)    
+    - [Variational Autoencoders](#variational-autoencoders)
+    - [Generative Adversarial Networks](#generative-adversarial-networks)
+    - [Autoregressive Models](#autoregressive-models)
+    - [Diffusion Models](#diffusion-models)
+  - [Appearance and Material](#appearance-and-material)
+  - [Joint Geometry and Appearance](#joint-geometry-and-appearance)
+    - [Generative Adversarial Networks](#generative-adversarial-networks-1)
+    - [Diffusion Models](#diffusion-models-1)
+  - [Structure-Aware](#structure-aware)
+- [3D Scene Generation](#3d-scene-generation)
+  - [Layout-Guided](#layout-guided)
+  - [2D prior-Based](#2d-prior-based)
+  - [Rule-Driven](#rule-driven)
+- [3D Datasets](#3d-datasets)
+- [Surveys](#surveys)
+
 # 3D Object Generation Methods
 
-## Shape
+## Geometry
 
 ### Variational Autoencoders
 
@@ -65,7 +85,7 @@
 |   <img src="Preview/direct3d.png" width="300">   | [Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention](https://arxiv.org/abs/2505.17412) | 2025 | NIPS  | [![GitHub](https://img.shields.io/github/stars/DreamTechAI/Direct3D-S2)](https://github.com/DreamTechAI/Direct3D-S2)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://www.neural4d.com/research-page/direct3d-s2/index.html) |
 |   <img src="Preview/ultra3d.png" width="300">    | [Ultra3D: Efficient and High-Fidelity 3D Generation with Part Attention](https://arxiv.org/abs/2507.17745) | 2025 | Arxiv | [![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://buaacyw.github.io/ultra3d/) |
 
-## Texture
+## Appearance and Material
 
 |                     Preview                      | Title                                                        | Year |     Pub.      |                            Links                             |
 | :----------------------------------------------: | ------------------------------------------------------------ | ---- | :-----------: | :----------------------------------------------------------: |
@@ -89,7 +109,7 @@
 |   <img src="Preview/romantex.png" width="300">   | [RomanTex: Decoupling 3D-aware Rotary Positional Embedded Multi-Attention Network for Texture Synthesis](https://arxiv.org/abs/2503.19011) | 2025 |     ICCV      | [![GitHub](https://img.shields.io/github/stars/oakshy/RomanTex)](https://github.com/oakshy/RomanTex)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://oakshy.github.io/RomanTex/) |
 |    <img src="Preview/matmvp.png" width="300">    | [MaterialMVP: Illumination-Invariant Material Generation via Multi-view PBR Diffusion](https://arxiv.org/abs/2503.10289) | 2025 |     ICCV      | [![GitHub](https://img.shields.io/github/stars/ZebinHe/MaterialMVP)](https://github.com/ZebinHe/MaterialMVP)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://zebinhe.github.io/MaterialMVP/) |
 
-## Both
+## Joint Geometry and Appearance
 
 ### Generative Adversarial Networks
 
@@ -166,7 +186,7 @@
 | <img src="Preview/hunyuan3d2.5.png" width="300"> | [Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details](https://arxiv.org/abs/2506.16504) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-2)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://3d-models.hunyuan.tencent.com/) |
 |   <img src="Preview/unilat3d.png" width="300">   | [UniLat3D: Geometry-Appearance Unified Latents for Single-Stage 3D Generation](https://arxiv.org/abs/2509.25079) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/UniLat3D/UniLat3D)](https://github.com/UniLat3D/UniLat3D)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://unilat3d.github.io/) |
 
-## Structure
+## Structure-Aware
 
 **Implicit Space**
 
@@ -210,7 +230,7 @@
 
 # 3D Scene Generation
 
-## Layout-guided
+## Layout-Guided
 
 **Explicit Geometry and Spatial Relationship Priors**
 
@@ -278,7 +298,7 @@
 |  <img src="Preview/scenepainter.png" width="300">  | [ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment](https://arxiv.org/abs/2507.19058) | 2025 |     ICCV      | [![GitHub](https://img.shields.io/github/stars/xiac20/ScenePainter)](https://github.com/xiac20/ScenePainter)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://xiac20.github.io/ScenePainter/) |
 |  <img src="Preview/imaginarium.png" width="300">   | [Imaginarium: Vision-guided High-Quality 3D Scene Layout Generation](https://arxiv.org/abs/2510.15564) | 2025 | SIGGRAPH Aisa | [![GitHub](https://img.shields.io/github/stars/HiHiAllen/Imaginarium)](https://github.com/HiHiAllen/Imaginarium)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://ydove0324.github.io/Imaginarium/) |
 
-## 2D prior-based
+## 2D prior-Based
 
 **Iterative**
 
@@ -346,7 +366,7 @@
 |  <img src="Preview/scenegen.png" width="300">  | [SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass](https://arxiv.org/abs/2508.15769) | 2025 |  3DV  | [![GitHub](https://img.shields.io/github/stars/Mengmouxu/SceneGen)](https://github.com/Mengmouxu/SceneGen)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://mengmouxu.github.io/SceneGen/) |
 |   <img src="Preview/sam3d.png" width="300">    | [SAM 3D: 3Dfy Anything in Images](https://arxiv.org/abs/2511.16624v1) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/facebookresearch/sam-3d-objects)](https://github.com/facebookresearch/sam-3d-objects)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://ai.meta.com/sam3d/) |
 
-## Rule-driven
+## Rule-Driven
 
 |                       Preview                       | Title                                                        | Year |     Pub.      |                            Links                             |
 | :-------------------------------------------------: | ------------------------------------------------------------ | ---- | :-----------: | :----------------------------------------------------------: |
@@ -372,3 +392,38 @@
 
 # 3D Datasets
 
+|                      Preview                      | Title                                                        | Type                      | Size                         | Categories                     | Year | Pub.  |
+| :-----------------------------------------------: | ------------------------------------------------------------ | ------------------------- | ---------------------------- | ------------------------------ | ---- | :---: |
+|   <img src="Preview/shapenets.png" width="300">   | [3D ShapeNets: A Deep Representation for Volumetric Shapes](https://arxiv.org/abs/1406.5670) | 3D Model                  | 127K                         | 662-Objects                    | 2014 | CVPR  |
+|   <img src="Preview/shapenet.png" width="300">    | [ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012) | 3D Model                  | 51K                          | 55-Objects                     | 2015 | Arxiv |
+|    <img src="Preview/partnet.png" width="300">    | [PartNet: A Large-scale Benchmark for Fine-grained and Hierarchical Part-level 3D Object Understanding](https://arxiv.org/abs/1812.02713) | 3D Model                  | 26.6K                        | 24-Objects                     | 2018 | ICCV  |
+|      <img src="Preview/gso.png" width="300">      | [Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items](https://arxiv.org/abs/2204.11918) | 3D Model                  | 1K                           | 17-Household Items             | 2022 | ICRA  |
+|   <img src="Preview/objaverse.png" width="300">   | [Objaverse: A Universe of Annotated 3D Objects](https://arxiv.org/abs/2212.08051) | 3D Model                  | 800K                         | Objects                        | 2022 | ICCV  |
+|  <img src="Preview/objaversexl.png" width="300">  | [Objaverse-XL: A Universe of 10M+ 3D Objects](https://arxiv.org/abs/2307.05663) | 3D Model                  | 10.2M                        | Objects                        | 2023 | NIPS  |
+|    <img src="Preview/3dfront.png" width="300">    | [3D-FRONT: 3D Furnished Rooms with layOuts and semaNTics](https://arxiv.org/abs/2011.09127) | 3D Model + Indoor Layout  | 13.1K(Models) +18.9K(Rooms)  | 31-Indoor Scenes               | 2020 | ICCV  |
+| <img src="Preview/internscenes.png" width="300">  | [InternScenes: A Large-scale Simulatable Indoor Scene Dataset with Realistic Layouts](https://arxiv.org/abs/2509.10813) | 3D Model + Indoor Layout  | 1.96M(Models) + 40K(Scenes)  | 288-Objects + 15-Indoor Scenes | 2025 | Arxiv |
+|     <img src="Preview/il3d.png" width="300">      | [IL3D: A Large-Scale Indoor Layout Dataset for LLM-Driven 3D Scene Generation](https://arxiv.org/abs/2510.12095) | 3D Model + Indoor Layout  | 29K(Models) + 27K(Layouts)   | 18-Houses                      | 2025 | Arxiv |
+|   <img src="Preview/3dfuture.png" width="300">    | [3D-FUTURE: 3D Furniture shape with TextURE](https://arxiv.org/abs/2009.09633) | 3D Model + RGB Image      | 16.5K(Models) +20.2K(Images) | 34-Furniture + Indoor Scenes   | 2020 | IJCV  |
+|   <img src="Preview/mvimgnet.png" width="300">    | [MVImgNet: A Large-scale Dataset of Multi-view Images](https://arxiv.org/abs/2303.06042) | RGB Image                 | 6.5M                         | 238-Objects                    | 2023 | CVPR  |
+|    <img src="Preview/scannet.png" width="300">    | [ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes](https://arxiv.org/abs/1702.04405) | RGBD Image                | 2.5M                         | Indoor Scenes                  | 2017 | CVPR  |
+|   <img src="Preview/hypersim.png" width="300">    | [Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding](https://arxiv.org/abs/2011.02523) | RGBD Image                | 77.4k                        | 461-Indoor Scenes              | 2020 | ICCV  |
+| <img src="Preview/houselayout3d.png" width="300"> | [HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](https://arxiv.org/abs/2512.02450) | RGBD Image +Indoor Layout | 26K(Images) + 317(Houses)    | House structure                | 2025 | NIPS  |
+|     <img src="Preview/co3d.png" width="300">      | [Common Objects in 3D: Large-Scale Learning and Evaluation of Real-life 3D Category Reconstruction](https://arxiv.org/abs/2109.00512) | Video                     | 19K                          | 50-Objects                     | 2021 | ICCV  |
+|     <img src="Preview/uco3d.png" width="300">     | [UnCommon Objects in 3D](https://arxiv.org/abs/2501.07574) | Video                     | 170K                         | 1000-Objects                   | 2025 | CVPR  |
+|  <img src="Preview/text2shape1.png" width="300">  | [Text2Shape: Generating Shapes from Natural Language by Learning Joint Embeddings](https://arxiv.org/abs/1803.08495) | 3D Model-Text pairs       | 15K(Models) + 75K(Text)      | 2-Objects                      | 2018 | ACCV  |
+| <img src="Preview/shapecrafter.png" width="300">  | [ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model](https://arxiv.org/abs/2207.09446) | 3D Model-Text pairs       | 369K                         | Objects                        | 2022 | NIPS  |
+|    <img src="Preview/pointe.png" width="300">     | [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/abs/2212.08751) | 3D Model-Text pairs       | >1M(Models) + 120K(Text)     | Objects                        | 2022 | Arxiv |
+
+# Surveys
+
+|                  Preview                  | Title                                                        | Year | Pub.  |                            Links                             |
+| :---------------------------------------: | ------------------------------------------------------------ | ---- | :---: | :----------------------------------------------------------: |
+| <img src="Preview/chau.png" width="300">  | [Learning Generative Models of 3D Structures](https://www2.cs.sfu.ca/~haoz/pubs/egstar2020.pdf) | 2020 |  CGF  |                              /                               |
+|  <img src="Preview/shi.png" width="300">  | [Deep Generative Models on 3D Representations: A Survey](https://arxiv.org/abs/2210.15663) | 2022 | Arxiv | [![GitHub](https://img.shields.io/github/stars/justimyhxu/awesome-3D-generation)](https://github.com/justimyhxu/awesome-3D-generation) |
+| <img src="Preview/patil.png" width="300"> | [Advances in Data-Driven Analysis and Synthesis of 3D Indoor Scenes](https://arxiv.org/abs/2304.03188) | 2023 |  CGF  |                              /                               |
+|  <img src="Preview/li2.png" width="300">  | [Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era](https://arxiv.org/abs/2305.06131) | 2023 | Arxiv |                              /                               |
+|  <img src="Preview/foo.png" width="300">  | [AI-Generated Content (AIGC) for Various Data Modalities: A Survey](https://arxiv.org/abs/2308.14177) | 2023 | CSUR  |                              /                               |
+|  <img src="Preview/li1.png" width="300">  | [Advances in 3D Generation: A Survey](https://arxiv.org/abs/2401.17807) | 2024 | Arxiv |                              /                               |
+|  <img src="Preview/liu.png" width="300">  | [A Comprehensive Survey on 3D Content Generation](https://arxiv.org/abs/2402.01166) | 2024 | Arxiv | [![GitHub](https://img.shields.io/github/stars/hitcslj/Awesome-AIGC-3D)](https://github.com/hitcslj/Awesome-AIGC-3D) |
+| <img src="Preview/jiang.png" width="300"> | [A Survey On Text-to-3D Contents Generation In The Wild](https://arxiv.org/abs/2405.09431) | 2024 | Arxiv |                              /                               |
+|  <img src="Preview/wen.png" width="300">  | [3D Scene Generation: A Survey](https://arxiv.org/abs/2505.05474) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/hzxie/Awesome-3D-Scene-Generation)](https://github.com/hzxie/Awesome-3D-Scene-Generation) |
