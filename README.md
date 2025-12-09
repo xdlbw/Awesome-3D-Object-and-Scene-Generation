@@ -5,7 +5,7 @@
 
 > 🏆 **A Curated List of 3D Object and Scene Generation Papers**
 >
-> 📅 **Scope**: This repository primarily collects over 200 high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
+> 📅 **Scope**: This repository primarily collects over **200** high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
 >
 > 📝 **Notation**: The "Year" column records the date of the first arXiv preprint version. Papers within each category are sorted chronologically by this date (precise to the day). The "Pub." column stands for "Publication," denoting the specific conference or journal where the work was published.
 >
@@ -37,7 +37,7 @@
     - [Generative Adversarial Networks](#generative-adversarial-networks-1)
     - [Diffusion Models](#diffusion-models-1)
   - [Structure-Aware](#structure-aware)
-- [3D Scene Generation](#3d-scene-generation)
+- [3D Scene Generation Methods](#3d-scene-generation-methods)
   - [Layout-Guided](#layout-guided)
   - [2D prior-Based](#2d-prior-based)
   - [Rule-Driven](#rule-driven)
@@ -208,8 +208,10 @@
 |   <img src="Preview/partgen.png" width="300">    | [PartGen: Part-level 3D Generation and Reconstruction with Multi-View Diffusion Models](https://arxiv.org/abs/2412.18608) | 2024 |     CVPR      | [![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://silent-chen.github.io/PartGen/) |
 |  <img src="Preview/caddreamer.png" width="300">  | [CADDreamer: CAD Object Generation from Single-view Images](https://arxiv.org/abs/2502.20732) | 2025 |     CVPR      | [![GitHub](https://img.shields.io/github/stars/lidan233/CADDreamer)](https://github.com/lidan233/CADDreamer)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://lidan233.github.io/caddreamer/) |
 |   <img src="Preview/holopart.png" width="300">   | [HoloPart: Generative 3D Part Amodal Segmentation](https://arxiv.org/abs/2504.07943) | 2025 |     Arxiv     | [![GitHub](https://img.shields.io/github/stars/VAST-AI-Research/HoloPart)](https://github.com/VAST-AI-Research/HoloPart)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://vast-ai-research.github.io/HoloPart/) |
-|   <img src="Preview/effpart.png" width="300">    | [Efficient Part-level 3D Object Generation via Dual Volume Packing](https://arxiv.org/abs/2506.09980) | 2025 |     Arxiv     | [![GitHub](https://img.shields.io/github/stars/NVlabs/PartPacker)](https://github.com/NVlabs/PartPacker)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://research.nvidia.com/labs/dir/partpacker/) |
+| <img src="Preview/partcomposer.png" width="300"> | [PartComposer: Learning and Composing Part-Level Concepts from Single-Image Examples](https://arxiv.org/abs/2506.03004) | 2025 | SIGGRAPH Asia | [![GitHub](https://img.shields.io/github/stars/Junyu-Liu-Nate/partcomposer)](https://github.com/Junyu-Liu-Nate/partcomposer)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://junyu-liu-nate.github.io/partcomposer.github.io/) |
 | <img src="Preview/partcrafter.png" width="300">  | [PartCrafter: Structured 3D Mesh Generation via Compositional Latent Diffusion Transformers](https://arxiv.org/abs/2506.05573) | 2025 |     NIPS      | [![GitHub](https://img.shields.io/github/stars/wgsxm/PartCrafter)](https://github.com/wgsxm/PartCrafter)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://wgsxm.github.io/projects/partcrafter/) |
+|   <img src="Preview/effpart.png" width="300">    | [Efficient Part-level 3D Object Generation via Dual Volume Packing](https://arxiv.org/abs/2506.09980) | 2025 |     Arxiv     | [![GitHub](https://img.shields.io/github/stars/NVlabs/PartPacker)](https://github.com/NVlabs/PartPacker)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://research.nvidia.com/labs/dir/partpacker/) |
+|  <img src="Preview/assembler.png" width="300">   | [Assembler: Scalable 3D Part Assembly via Anchor Point Diffusion](https://arxiv.org/abs/2506.17074) | 2025 | SIGGRAPH Asia | [![GitHub](https://img.shields.io/github/stars/assembler3d/assembler3d)](https://github.com/assembler3d/assembler3d)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://assembler3d.github.io/) |
 |   <img src="Preview/dreamart.png" width="300">   | [DreamArt: Generating Interactable Articulated Objects from a Single Image](https://arxiv.org/abs/2507.05763) | 2025 |     Arxiv     | [![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://dream-art-0.github.io/DreamArt/) |
 | <img src="Preview/autopartgen.png" width="300">  | [AutoPartGen: Autogressive 3D Part Generation and Discovery](https://arxiv.org/abs/2507.13346) | 2025 |     Arxiv     | [![GitHub](https://img.shields.io/github/stars/silent-chen/AutoPartGen)](https://github.com/silent-chen/AutoPartGen) |
 |  <img src="Preview/ominipart.png" width="300">   | [OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion](https://arxiv.org/abs/2507.06165) | 2025 | SIGGRAPH Asia | [![GitHub](https://img.shields.io/github/stars/HKU-MMLab/OmniPart)](https://github.com/HKU-MMLab/OmniPart)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://omnipart.github.io/) |
@@ -228,7 +230,7 @@
 |     <img src="Preview/pcg.png" width="300">      | [Procedural Generation of Articulated Simulation-Ready Assets](https://arxiv.org/abs/2505.10755) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/princeton-vl/infinigen)](https://github.com/princeton-vl/infinigen)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://infinigen.org/) |
 |  <img src="Preview/meshcoder.png" width="300">   | [MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds](https://arxiv.org/abs/2508.14879) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/InternRobotics/MeshCoder)](https://github.com/InternRobotics/MeshCoder)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://daibingquan.github.io/MeshCoder/) |
 
-# 3D Scene Generation
+# 3D Scene Generation Methods
 
 ## Layout-Guided
 
