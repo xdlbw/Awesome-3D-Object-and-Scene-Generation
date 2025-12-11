@@ -5,7 +5,7 @@
 
 > 🏆 **A Curated List of 3D Object and Scene Generation Papers**
 >
-> 📅 **Scope**: This repository primarily collects over **200** high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
+> 📅 **Scope**: This repository primarily collects **250+** high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
 >
 > 📝 **Notation**: The "Year" column records the date of the first arXiv preprint version. Papers within each category are sorted chronologically by this date (precise to the day). The "Pub." column stands for "Publication," denoting the specific conference or journal where the work was published.
 >
@@ -37,10 +37,12 @@
     - [Generative Adversarial Networks](#generative-adversarial-networks-1)
     - [Diffusion Models](#diffusion-models-1)
   - [Structure-Aware](#structure-aware)
+  - [Other](#other)
 - [3D Scene Generation Methods](#3d-scene-generation-methods)
   - [Layout-Guided](#layout-guided)
   - [2D prior-Based](#2d-prior-based)
   - [Rule-Driven](#rule-driven)
+  - [Other](#other-1)
 - [3D Datasets](#3d-datasets)
 - [Surveys](#surveys)
 
@@ -230,6 +232,14 @@
 |     <img src="Preview/pcg.png" width="300">      | [Procedural Generation of Articulated Simulation-Ready Assets](https://arxiv.org/abs/2505.10755) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/princeton-vl/infinigen)](https://github.com/princeton-vl/infinigen)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://infinigen.org/) |
 |  <img src="Preview/meshcoder.png" width="300">   | [MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds](https://arxiv.org/abs/2508.14879) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/InternRobotics/MeshCoder)](https://github.com/InternRobotics/MeshCoder)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://daibingquan.github.io/MeshCoder/) |
 
+## Other
+
+> In our current classification system, certain works cannot be readily categorized and will thus be placed here.
+
+|                  Preview                  | Title                                                        | Year | Pub. |                            Links                             |
+| :---------------------------------------: | :----------------------------------------------------------- | ---- | :--: | :----------------------------------------------------------: |
+| <img src="Preview/sar3d.png" width="300"> | [SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE](https://arxiv.org/abs/2411.16856) | 2024 | CVPR | [![GitHub](https://img.shields.io/github/stars/cyw-3d/SAR3D)](https://github.com/cyw-3d/SAR3D)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://cyw-3d.github.io/projects/SAR3D/) |
+
 # 3D Scene Generation Methods
 
 ## Layout-Guided
@@ -253,6 +263,7 @@
 |   <img src="Preview/forest2seq.png" width="300">    | [Forest2Seq: Revitalizing Order Prior for Sequential Indoor Scene Synthesis](https://arxiv.org/abs/2407.05388) | 2024 | ECCV  |                              /                               |
 | <img src="Preview/dreamdissector.png" width="300">  | [DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](https://arxiv.org/abs/2407.16260) | 2024 | ECCV  |                              /                               |
 |   <img src="Preview/scenecraft1.png" width="300">   | [SceneCraft: Layout-Guided 3D Scene Generation](https://arxiv.org/abs/2410.09049) | 2024 | NIPS  | [![GitHub](https://img.shields.io/github/stars/OrangeSodahub/SceneCraft)](https://github.com/OrangeSodahub/SceneCraft)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://orangesodahub.github.io/SceneCraft/) |
+|   <img src="Preview/scenefactor.png" width="300">   | [SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation](https://arxiv.org/abs/2412.01801) | 2024 | CVPR  | [![GitHub](https://img.shields.io/github/stars/alexeybokhovkin/SceneFactor)](https://github.com/alexeybokhovkin/SceneFactor)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://alexeybokhovkin.github.io/scenefactor/) |
 |   <img src="Preview/spatialgen.png" width="300">    | [SPATIALGEN: Layout-guided 3D Indoor Scene Generation](https://arxiv.org/abs/2509.14981) | 2025 |  3DV  | [![GitHub](https://img.shields.io/github/stars/manycore-research/SpatialGen)](https://github.com/manycore-research/SpatialGen)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://manycore-research.github.io/SpatialGen/) |
 
 **BEV**
@@ -284,6 +295,7 @@
 |  <img src="Preview/sceneweaver.png" width="300">   | [SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent](https://arxiv.org/abs/2509.20414) | 2025 | NIPS  | [![GitHub](https://img.shields.io/github/stars/Scene-Weaver/SceneWeaver)](https://github.com/Scene-Weaver/SceneWeaver)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://scene-weaver.github.io/) |
 |    <img src="Preview/mesatask.png" width="300">    | [MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning](https://arxiv.org/abs/2509.22281) | 2025 | NIPS  | [![GitHub](https://img.shields.io/github/stars/InternRobotics/MesaTask)](https://github.com/InternRobotics/MesaTask)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://mesatask.github.io/) |
 |     <img src="Preview/yocity.png" width="300">     | [Yo'City: Personalized and Boundless 3D Realistic City Scene Generation via Self-Critic Expansion](https://arxiv.org/abs/2511.18734) | 2025 | Arxiv |                              /                               |
+|  <img src="Preview/majutsucity.png" width="300">   | [MajutsuCity: Language-driven Aesthetic-adaptive City Generation with Controllable 3D Assets and Layouts](https://arxiv.org/abs/2511.20415) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/LongHZ140516/MajutsuCity)](https://github.com/LongHZ140516/MajutsuCity)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://longhz140516.github.io/MajutsuCity/) |
 
 **Scene Graph**
 
@@ -391,6 +403,20 @@
 |  <img src="Preview/buildingblock.png" width="300">  | [BuildingBlock: A Hybrid Approach for Structured Building Generation](https://arxiv.org/abs/2505.04051) | 2025 |   SIGGRAPH    |                              /                               |
 |    <img src="Preview/roomcraft.png" width="300">    | [RoomCraft: Controllable and Complete 3D Indoor Scene Generation](https://arxiv.org/abs/2506.22291) | 2025 |     ICML      |                              /                               |
 | <img src="Preview/proceduralscene.png" width="300"> | [Procedural Scene Programs for Open-Universe Scene Generation: LLM-Free Error Correction via Program Search](https://arxiv.org/abs/2510.16147) | 2025 | SIGGRAPH Asia |                              /                               |
+
+## Other
+
+> In our current classification system, certain works cannot be readily categorized and will thus be placed here.
+
+|                     Preview                     | Title                                                        | Year | Pub.  |                            Links                             |
+| :---------------------------------------------: | ------------------------------------------------------------ | ---- | :---: | :----------------------------------------------------------: |
+|   <img src="Preview/pyramid.png" width="300">   | [Pyramid Diffusion for Fine 3D Large Scene Generation](https://arxiv.org/abs/2311.12085) | 2023 | ECCV  | [![GitHub](https://img.shields.io/github/stars/yuhengliu02/pyramid-discrete-diffusion)](https://github.com/yuhengliu02/pyramid-discrete-diffusion)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://yuheng.ink/project-page/pyramid-discrete-diffusion/) |
+| <img src="Preview/blockfusion.png" width="300"> | [BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation](https://arxiv.org/abs/2401.17053) | 2024 |  TOG  | [![GitHub](https://img.shields.io/github/stars/Tencent/BlockFusion)](https://github.com/Tencent/BlockFusion)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://yang-l1.github.io/blockfusion/) |
+|    <img src="Preview/lt3sd.png" width="300">    | [LT3SD: Latent Trees for 3D Scene Diffusion](https://arxiv.org/abs/2409.08215) | 2024 | CVPR  | [![GitHub](https://img.shields.io/github/stars/quan-meng/lt3sd)](https://github.com/quan-meng/lt3sd)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://quan-meng.github.io/projects/lt3sd/) |
+|   <img src="Preview/syncity.png" width="300">   | [SynCity: Training-Free Generation of 3D Worlds](https://arxiv.org/abs/2503.16420) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/paulengstler/syncity)](https://github.com/paulengstler/syncity)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://research.paulengstler.com/syncity/) |
+|  <img src="Preview/physgen3d.png" width="300">  | [PhysGen3D: Crafting a Miniature Interactive World from a Single Image](https://arxiv.org/abs/2503.20746) | 2025 | CVPR  | [![GitHub](https://img.shields.io/github/stars/by-luckk/PhysGen3D)](https://github.com/by-luckk/PhysGen3D)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://by-luckk.github.io/PhysGen3D/) |
+| <img src="Preview/embodiedgen.png" width="300"> | [EmbodiedGen: Towards a Generative 3D World Engine for Embodied Intelligence](https://arxiv.org/abs/2506.10600) | 2025 | Arxiv | [![GitHub](https://img.shields.io/github/stars/HorizonRobotics/EmbodiedGen)](https://github.com/HorizonRobotics/EmbodiedGen)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://horizonrobotics.github.io/EmbodiedGen/) |
+|  <img src="Preview/worldgrow.png" width="300">  | [WorldGrow: Generating Infinite 3D World](https://arxiv.org/abs/2510.21682) | 2025 | AAAI  | [![GitHub](https://img.shields.io/github/stars/world-grow/WorldGrow)](https://github.com/world-grow/WorldGrow)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://world-grow.github.io/) |
 
 # 3D Datasets
 
