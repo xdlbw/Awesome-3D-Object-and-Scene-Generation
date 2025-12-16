@@ -200,6 +200,8 @@
 |    <img src="Preview/pqnet.png" width="300">     | [PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes](https://arxiv.org/abs/1911.10949) | 2019 |     CVPR      | [![GitHub](https://img.shields.io/github/stars/rundiwu/PQ-NET)](https://github.com/rundiwu/PQ-NET) |
 |    <img src="Preview/mrgan.png" width="300">     | [MRGAN: Multi-Rooted 3D Shape Generation with Unsupervised Part Disentanglement](https://arxiv.org/abs/2007.12944) | 2020 |     ICCV      |                              /                               |
 |    <img src="Preview/tmnet.png" width="300">     | [TM-NET: Deep Generative Networks for Textured Meshes](https://arxiv.org/abs/2010.06217) | 2020 |      TOG      | [![GitHub](https://img.shields.io/github/stars/IGLICT/TM-NET)](https://github.com/IGLICT/TM-NET) |
+|     <img src="Preview/tree.png" width="300">     | [Autoregressive Generation of Static and Growing Trees](https://arxiv.org/abs/2502.04762) | 2025 | SIGGRAPH Asia |                              /                               |
+|   <img src="Preview/brepgpt.png" width="300">    | [BrepGPT: Autoregressive B-rep Generation with Voronoi Half-Patch](https://arxiv.org/abs/2511.22171) | 2025 |      TOG      |                              /                               |
 
 **Diffusion Models**
 
