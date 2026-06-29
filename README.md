@@ -453,6 +453,7 @@
 
 |                  Preview                  | Title                                                        | Year | Pub.  |                            Links                             |
 | :---------------------------------------: | ------------------------------------------------------------ | ---- | :---: | :----------------------------------------------------------: |
+| <img src="Preview/teaser_N3DMT_Survey.jpg" width="300">  | [Advances in Neural 3D Mesh Texturing: A Survey](https://sairajk.github.io/neural-mesh-texturing/) | 2026 |  Eurographics STAR (CGF)  |               [arXiv](https://arxiv.org/abs/2606.00137)               /              [Project Page](https://sairajk.github.io/neural-mesh-texturing/)                 |
 | <img src="Preview/chau.png" width="300">  | [Learning Generative Models of 3D Structures](https://www2.cs.sfu.ca/~haoz/pubs/egstar2020.pdf) | 2020 |  CGF  |                              /                               |
 |  <img src="Preview/shi.png" width="300">  | [Deep Generative Models on 3D Representations: A Survey](https://arxiv.org/abs/2210.15663) | 2022 | Arxiv | [![GitHub](https://img.shields.io/github/stars/justimyhxu/awesome-3D-generation)](https://github.com/justimyhxu/awesome-3D-generation) |
 | <img src="Preview/patil.png" width="300"> | [Advances in Data-Driven Analysis and Synthesis of 3D Indoor Scenes](https://arxiv.org/abs/2304.03188) | 2023 |  CGF  |                              /                               |
