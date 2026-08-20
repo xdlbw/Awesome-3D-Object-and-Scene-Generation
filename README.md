@@ -5,7 +5,7 @@
 
 > 🏆 **A Curated List of 3D Object and Scene Generation Papers**
 >
-> 📅 **Scope**: This repository primarily collects **250+** high-quality literature published between **2020 and 2025** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
+> 📅 **Scope**: This repository primarily collects **300+** high-quality literature published between **2020 and 2026** in **top-tier conferences and journals** across the fields of Computer Graphics, Computer Vision, and Artificial Intelligence (including but not limited to **SIGGRAPH, TOG, CVPR, ICCV, ECCV, NeurIPS, and ICLR**).
 >
 > 📝 **Notation**: The "Year" column records the date of the first arXiv preprint version. Papers within each category are sorted chronologically by this date (precise to the day). The "Pub." column stands for "Publication," denoting the specific conference or journal where the work was published.
 >
@@ -13,14 +13,16 @@
 >
 > 🤝 **Contribution**: We warmly welcome recommendations for the latest research in the field of 3D Content Generation (3D AIGC). Your contributions will significantly enhance the academic value and robustness of this repository.
 >
+> 🎉 **Exciting News**: We are thrilled to announce that the comprehensive survey paper associated with this repository has been officially accepted for publication in **ACM Computing Surveys (CSUR)**! 
+>
 > 🌟 **Citation**: If this repository offers insight or assistance to your research, please consider citing us!
 >
 > ```
 > @article{tang2025recent,
->   title={Recent Advance in 3D Object and Scene Generation: A Survey},
->   author={Tang, Xiang and Li, Ruotong and Fan, Xiaopeng},
->   journal={arXiv preprint arXiv:2504.11734},
->   year={2025}
+> title={Recent Advance in 3D Object and Scene Generation: A Survey},
+> author={Tang, Xiang and Li, Ruotong and Fan, Xiaopeng},
+> journal={arXiv preprint arXiv:2504.11734},
+> year={2025}
 > }
 > ```
 
@@ -301,6 +303,7 @@
 |      <img src="Preview/sage.png" width="300">      | [SAGE: Scalable Agentic 3D Scene Generation for Embodied AI](https://arxiv.org/abs/2602.10116) | 2026 | CVPR  | [![GitHub](https://img.shields.io/github/stars/NVlabs/sage)](https://github.com/NVlabs/sage)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://research.nvidia.com/labs/cosmos-lab/sage/) |
 |    <img src="Preview/mansion.png" width="300">     | [MANSION: Multi-floor lANguage-to-3D Scene generatIOn for loNg-horizon tasks](https://arxiv.org/abs/2603.11554) | 2026 | CVPR  | [![GitHub](https://img.shields.io/github/stars/AgibotGeneral/MANSION)](https://github.com/AgibotGeneral/MANSION)[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://agibotgeneral.github.io/mansion-site/) |
 |      <img src="Preview/hog.png" width="300">       | [HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models](https://arxiv.org/abs/2604.10772) | 2026 | CVPR  | [![youtube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=youtube)](https://www.youtube.com/watch?v=7-JYJsWXGQY) |
+|   <img src="Preview/text2villa.png" width="300">   | [Text2Villa: Hierarchical Generation of 3D Indoor Environments with Physics-Aware Analysis-by-Synthesis](https://arxiv.org/abs/2607.17145) | 2026 | Arxiv | [![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://xdlbw.github.io/Text2Villa/) |
 
 **Scene Graph**
 
